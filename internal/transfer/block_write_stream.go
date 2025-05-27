@@ -19,7 +19,7 @@ import (
 const (
 	outboundPacketSize = 65536
 	outboundChunkSize  = 512
-	maxPacketsInQueue  = 5
+	maxPacketsInQueue  = 80
 	heartbeatSeqno     = -1
 	heartbeatInterval  = 30 * time.Second
 )
